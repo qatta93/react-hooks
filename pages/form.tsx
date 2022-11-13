@@ -40,7 +40,7 @@ const FormPage = () => {
           pattern: /^\S+@\S+\.\S+$/i
          }}
         control={control}
-        defaultValue=""
+        defaultValue="eee"
       />
       <input type="number" {...register("age", { min: 18, max: 99 })} />
       <select {...register("gender")}>
